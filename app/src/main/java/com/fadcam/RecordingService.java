@@ -21,7 +21,6 @@ import android.os.Build;
 import android.os.Environment;
 import android.os.IBinder;
 import android.os.SystemClock;
-import android.util.Log;
 import android.util.Range;
 import android.view.Surface;
 
@@ -77,6 +76,8 @@ public class RecordingService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
+
+        Log.init(this);
 
         sharedPreferences = getApplicationContext().getSharedPreferences(Constants.PREFS_NAME, Context.MODE_PRIVATE);
 
@@ -213,7 +214,7 @@ public class RecordingService extends Service {
             mediaRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.AAC);
 
             // Set video encoder to HEVC (H.265) for better compression
-            mediaRecorder.setVideoEncoder(MediaRecorder.VideoEncoder.HEVC);
+            mediaRecorder.setVideoEncoder(MediaRecorder.VideoEncoder.H264);
 
             // Set orientation based on camera selection
             if (getCameraSelection().equals(Constants.CAMERA_FRONT)) {
