@@ -70,8 +70,8 @@
     <string name="button_setting_review">写个评论 🌟</string>
     <string name="dialog_clock_title">选择时间格式</string>
     <string name="dialog_clock_timeonly">仅显示时间</string>
-    <string name="dialog_clock_englishtime">英制日期与时间</string>
-    <string name="dialog_clock_Islamic_calendar">伊斯兰历法</string>
+    <string name="dialog_clock_date_time">英制日期与时间</string>
+    <string name="dialog_clock_islamic_calendar">伊斯兰历法</string>
     <string name="ui_preview_area">预览区</string>
     <string-array name="easter_eggs_array">
         <item>警告! 这里是限制出入区域. 启动录像以访问.</item>

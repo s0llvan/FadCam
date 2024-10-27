@@ -92,8 +92,8 @@
     <string name="button_setting_review">Écrire un Avis 🌟</string>
     <string name="dialog_clock_title">Choisir l\'affichage de l\'horloge</string>
     <string name="dialog_clock_timeonly">Heure seulement</string>
-    <string name="dialog_clock_englishtime">Date Anglaise avec l\'heure</string>
-    <string name="dialog_clock_Islamic_calendar">تاريخ التقويم الإسلامي</string>
+    <string name="dialog_clock_date_time">Date et heure</string>
+    <string name="dialog_clock_islamic_calendar">تاريخ التقويم الإسلامي</string>
     <string name="ui_preview_area">Zone Prévisualisation</string>
     <string-array name="easter_eggs_array">
         <item>Alerte ! C\'est une zone restreinte. Commencez à enregistrer pour accéder.</item>

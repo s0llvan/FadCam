@@ -80,8 +80,8 @@
     <string name="button_setting_review">Değerlendirme Yaz 🌟</string>
     <string name="dialog_clock_title">Saat Görüntüsünü Seçin</string>
     <string name="dialog_clock_timeonly">Sadece Saat</string>
-    <string name="dialog_clock_englishtime">İngilizce Tarih ve Saat</string>
-    <string name="dialog_clock_Islamic_calendar">تاريخ التقويم الإسلامي</string>
+    <string name="dialog_clock_date_time">İngilizce Tarih ve Saat</string>
+    <string name="dialog_clock_islamic_calendar">تاريخ التقويم الإسلامي</string>
     <string name="ui_preview_area">Önizleme Alanı</string>
     <string-array name="easter_eggs_array">
         <item>Uyarı! Bu kısıtlı bir alan. Erişim kazanmak için kayda başlayın.</item>

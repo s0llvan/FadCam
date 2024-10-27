@@ -910,8 +910,8 @@ public class HomeFragment extends Fragment {
                 .setTitle(getString(R.string.dialog_clock_title))
                 .setSingleChoiceItems(new String[]{
                         getString(R.string.dialog_clock_timeonly),
-                        getString(R.string.dialog_clock_englishtime),
-                        getString(R.string.dialog_clock_Islamic_calendar)
+                        getString(R.string.dialog_clock_date_time),
+                        getString(R.string.dialog_clock_islamic_calendar)
                 }, getCurrentDisplayOption(), (dialog, which) -> {
                     saveDisplayOption(which);
                     updateClock(); // Update the widget based on the selected option
@@ -941,8 +941,13 @@ public class HomeFragment extends Fragment {
         SharedPreferences prefs = requireActivity().getSharedPreferences("AppPreferences", Context.MODE_PRIVATE);
         int displayOption = prefs.getInt("display_option", 2); // Default to "Everything"
 
+        String timePattern = "HH:mm";
+        if(Locale.getDefault().equals(Locale.ENGLISH)) {
+            timePattern = "hh:mm a";
+        }
+
         // Update the time
-        SimpleDateFormat timeFormat = new SimpleDateFormat("hh:mm a", Locale.getDefault());
+        SimpleDateFormat timeFormat = new SimpleDateFormat(timePattern, Locale.getDefault());
         String currentTime = timeFormat.format(new Date());
         tvClock.setText(currentTime);
 

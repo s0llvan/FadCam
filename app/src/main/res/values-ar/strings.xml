@@ -70,8 +70,8 @@
     <string name="button_setting_review">اكتب مراجعة 🌟</string>
     <string name="dialog_clock_title">اختر تنسيق الوقت</string>
     <string name="dialog_clock_timeonly">عرض الوقت فقط</string>
-    <string name="dialog_clock_englishtime">تاريخ ووقت بالنظام الإنجليزي</string>
-    <string name="dialog_clock_Islamic_calendar">التقويم الإسلامي</string>
+    <string name="dialog_clock_date_time">تاريخ ووقت بالنظام الإنجليزي</string>
+    <string name="dialog_clock_islamic_calendar">التقويم الإسلامي</string>
     <string name="ui_preview_area">منطقة المعاينة</string>
     <string-array name="easter_eggs_array">
         <item>تحذير! هذه منطقة وصول محدود. بدء تسجيل الفيديو للوصول.</item>
